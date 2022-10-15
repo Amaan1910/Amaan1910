@@ -1,0 +1,31 @@
+function isPrime(num){
+  if(num ===1){
+    return false;
+  }
+  for(var i = 2; i < num; i++){
+    if(num % i === 0){
+      return false;
+    }
+  }
+  return true;
+}
+
+function isPalindrome(num){
+var originalNum = num;
+var rev = 0;
+var lastDigit;
+while(num !== 0){
+  lastDigit = num % 10;
+  rev = rev * 10 + lastDigit;
+  num = Math.floor(num /10);
+}
+  if(originalNum !== rev){
+    return false;
+   }
+   return true;
+}
+for(var num = 1; num < 50; num++){
+  if(isPrime(num) && isPalindrome(num)){
+    console.log(num);
+  }
+}
