@@ -1,0 +1,22 @@
+//Program to find if two numbers have opposite signs. 
+
+var n1 = +prompt("Enter First number:");
+var n2 = +prompt("Enter Second number:");
+
+if(n1 < 0 && n2 > 0){
+    console.log("n1,n2 have opposite signs");
+}
+ else if (n1 > 0 && n2 < 0){
+    console.log("n1,n2 have opposite signs");
+}
+else if(n1 > 0 && n2 > 0){
+    console.log("n1,n2 have same sign")
+} 
+
+//Program to find minimum of three numbers
+
+var num1 = +prompt("Enter the first number:");
+var num2 = +prompt("Enter the second number:");
+var num3 = +prompt("Enter the third number:");
+
+console.log(Math.min(num1,num2,num3));
