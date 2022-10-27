@@ -1,0 +1,32 @@
+// Program to demonstrate destructuring in nested objects
+
+const person = {
+    firstName: 'Adil',
+    lastName: 'Arif',
+    age: 25,
+    job: 'web-developer',
+    love: 'coding',
+    friedsList: {
+        friend1: 'Abir',
+        friend2: 'Adnan'
+    }
+}
+const { friend1, friend2 } = person.friedsList;
+console.log(friend1, friend2);
+
+// Program to clone the object and change the property and then iterate the array of objects using inbuilt functions 
+// and to console the object property and frame a meaning full sentence.
+const person = {
+    name: 'John',
+    age: 21,
+}
+
+// cloning the object
+const clonePerson = Object.assign({}, person);
+
+console.log(clonePerson);
+
+// changing the value of clonePerson
+clonePerson.name = 'Peter';
+
+console.log("The name of the person is " + clonePerson.name + " and he is " + clonePerson.age + " years old.");
