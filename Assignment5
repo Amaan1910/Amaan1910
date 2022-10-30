@@ -1,0 +1,33 @@
+//Write a method that accepts an array of integers and updates every element with multiplication of previous and next elements.
+
+var arr = [1,2,3,4,5];
+var current = [];
+for(var i = 0; i < arr.length; i++){
+  if(i < 1){
+    current += arr[i] * arr[i+1] + " ";
+  }
+  else if(i >= 1 && i < arr.length-1){
+    current += arr[i-1] * arr[i+1] + " ";
+  }
+  else if(i === arr.length-1){
+    current += arr[i] * arr[arr.length-2];
+  }
+}
+console.log(current);
+
+
+// Move all negative numbers to the end and positive to the beginning of the array without using any predefined sorting method.
+
+var arr = [-1,2,-3,4,-5];
+var temp;
+for(var i = 0; i < arr.length; i++){
+  for(var j = i+1; j < arr.length; j++){
+  if(arr[i] < arr[j]){
+    temp = arr[i];
+    arr[i] = arr[j];
+    arr[j] = temp;
+  }
+}
+
+}
+console.log(arr);
