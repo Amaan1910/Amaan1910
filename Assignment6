@@ -1,0 +1,32 @@
+// Write a javascript program to print below pattern having numbers in pyramid form along with its
+mirr)r image.
+
+var numberOfRows = 5;
+
+var str = "";
+for (var i = 1; i <= numberOfRows; i++) {
+  
+  for (var j = 1; j <= numberOfRows - i; j++) {
+    str += ' ';
+  }
+  
+  for (var k = 0; k < 2 * i - 1; k++) {
+    str += k;
+  }
+  str += "\n";
+  
+}
+
+for (var i = numberOfRows; i >= 1; i--) {
+  
+  for (var j = 1; j <= numberOfRows - i; j++) {
+    str += ' ';
+  }
+  
+  for (var k = 0; k < 2 * i - 1; k++) {
+    str += k;
+  }
+  str += "\n";
+  
+}
+console.log(str);
