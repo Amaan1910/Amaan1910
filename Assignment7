@@ -1,0 +1,91 @@
+// Given an array having 0,1 as input. We need to write a function that sorts the array in ascending order without using inbuilt sort function.
+
+let temp;
+ 
+function sort(...arr){
+  for(let i = 0; i < arr.length; i++){
+    for(let j = i+1; j < arr.length; j++){
+      if(arr[i] > arr[j]){
+        temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;  
+      }
+    }
+  }  
+  return arr;
+}
+console.log(sort(0,1,1,0,1,0,0,1));
+
+
+//Given 2D Array. A Magic square is a 2D array having n rows and n columns which will be having all elements as distinct and the sum of row, column or diagonal is equal to the same number.
+You need to check whether that array is a magic square or not.
+
+const arr = [
+  [2, 7, 6],
+  [9, 5, 1],
+  [4, 3, 8]
+];
+
+let SR = 0;
+let SC = 0;
+let EC = 3;
+let ER = 3;
+
+let rowIndex = SR;
+let sumOfR1 = 0;
+for (let j = 0; j < EC; j++) {
+  sumOfR1 += arr[rowIndex][j];
+}
+
+rowIndex = SR + 1;
+let sumOfR2 = 0;
+for (let j = 0; j < EC; j++) {
+  sumOfR2 += arr[rowIndex][j];
+}
+
+rowIndex = ER - 1;
+let sumOfR3 = 0;
+for (let j = 0; j < EC; j++) {
+  sumOfR3 += arr[rowIndex][j];
+}
+
+let colIndex = SC;
+let sumOfC1 = 0;
+for (let i = 0; i < ER; i++) {
+  sumOfC1 += arr[i][colIndex];
+}
+
+colIndex = SC + 1;
+let sumOfC2 = 0;
+for (let i = 0; i < ER; i++) {
+  sumOfC2 += arr[i][colIndex];
+}
+
+colIndex = EC - 1;
+let sumOfC3 = 0;
+for (let i = 0; i < ER; i++) {
+  sumOfC3 += arr[i][colIndex];
+}
+
+let sumOfDiagonal = 0;
+for (let k = 0; k < ER; k++) {
+  for (let l = 0; l < EC; l++) {
+    if (k === l) {
+      sumOfDiagonal += arr[k][l];
+    }
+  }
+}
+
+if (
+  sumOfDiagonal === sumOfR1 &&
+  sumOfDiagonal === sumOfR2 &&
+  sumOfDiagonal === sumOfR3 &&
+  sumOfDiagonal === sumOfC1 &&
+  sumOfDiagonal === sumOfC2 &&
+  sumOfDiagonal === sumOfC3 
+) {
+  console.log("This is a Magic Square");
+}
+else{
+  console.log("This is not a Magic Square");
+}
