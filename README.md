@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Hey,%20I'm%20Amaan%20👋&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Full-Stack%20Engineer%20•%20Backend%20Engineer%20•%20Node.js%20/%20React%20&descAlignY=58&descSize=18&descColor=94a3b8" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1f4037,50:99f2c8,100:1f4037&height=230&section=header&text=Hey,%20I'm%20Amaan%20👋&fontSize=54&fontColor=ffffff&fontAlignY=38&desc=Building%20Scalable%20Backend%20Systems%20%7C%20Full-Stack%20Engineer&descAlignY=62&descSize=20&descColor=E2E8F0" />
 
 </div>
 
@@ -11,8 +11,8 @@
 Full Stack Engineer with 2+ years of experience building production-grade web applications. Backend-focused
 specialist in Node.js/Express REST APIs, MySQL optimization, and React/Next.js frontends with TypeScript.
 
-- 🔭 Currently building a **WebRTC video calling plugin for WordPress**
-- 💡 I like solving real-world problems with clean, well-structured code
+- 💡 Passionate about solving real-world problems through clean, maintainable, and well-architected code
+- ⚙️ Strong focus on performance, scalability, and system design
 - 📫 Reach me at **amaancims@gmail.com**
 
 ---
@@ -78,6 +78,7 @@ specialist in Node.js/Express REST APIs, MySQL optimization, and React/Next.js f
 
 <div align="center">
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/amaan-ahmad-57220322b/)
 [![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:amaancims@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Amaan1910)
 
