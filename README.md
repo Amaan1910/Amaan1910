@@ -38,30 +38,6 @@ I'm a full-stack developer based in **Lucknow, India**, building real-time, prod
 
 ---
 
-### 📊 GitHub Stats
-
-<div align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=Amaan1910&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&count_private=true" />
-  &nbsp;&nbsp;
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Amaan1910&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" />
-</div>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=Amaan1910&theme=tokyonight&hide_border=true&background=0d1117&stroke=58a6ff&ring=58a6ff&fire=ff6b6b&currStreakLabel=c9d1d9&sideLabels=c9d1d9&currStreakNum=ffffff&sideNums=ffffff&dates=58a6ff" />
-</div>
-
----
-
-### 🚀 Featured Project
-
-<div align="center">
-
-[![WebRTC Plugin](https://github-readme-stats.vercel.app/api/pin/?username=Amaan1910&repo=webrtc-wordpress-plugin&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff)](https://github.com/Amaan1910/webrtc-wordpress-plugin)
-
-</div>
-
----
-
 ### 🤝 Connect With Me
 
 <div align="center">
